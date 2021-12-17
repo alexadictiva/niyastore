@@ -166,12 +166,10 @@ CREATE TABLE `products` (
   `productName` varchar(255) DEFAULT NULL,
   `productCompany` varchar(255) DEFAULT NULL,
   `productPrice` int(11) DEFAULT NULL,
-  `productPriceBeforeDiscount` int(11) DEFAULT NULL,
   `productDescription` longtext,
   `productImage1` varchar(255) DEFAULT NULL,
   `productImage2` varchar(255) DEFAULT NULL,
   `productImage3` varchar(255) DEFAULT NULL,
-  `shippingCharge` int(11) DEFAULT NULL,
   `productAvailability` varchar(255) DEFAULT NULL,
   `postingDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updationDate` varchar(255) DEFAULT NULL
