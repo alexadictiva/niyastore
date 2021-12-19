@@ -1,90 +1,100 @@
-<div id="brands-carousel" class="logo-slider wow fadeInUp">
+<!-- <section class="container">
+	<div class="row">		
+		<article class="col-6 col-md-3">
+			<div class="card border-primary mb-3">
+				<div class="card-body text-primary">
+					<img style="width:100%" src="./img/selu.svg" alt="">
+				</div>
+			</div>
+		</article>
+		<article class="col-6 col-md-3">
+			<div class="card border-primary mb-3">
+				<div class="card-body text-primary">
+					<img style="width:100%" src="./img/sweet l.svg" alt="">
+				</div>
+			</div>
+		</article>
+		<article class="col-6 col-md-3">
+			<div class="card border-primary mb-3">
+				<div class="card-body text-primary">
+					<img style="width:100%" src="./img/sweet v.svg" alt="">
+				</div>
+			</div>
+		</article>
+		<article class="col-6 col-md-3">
+			<div class="card border-primary mb-3">
+				<div class="card-body text-primary">
+					<img style="width:100%" src="./img/tutta.svg" alt="">
+				</div>
+			</div>
+		</article>
+		<article class="col-6 col-md-3">
+			<div class="card border-primary mb-3">
+				<div class="card-body text-primary">
+					<img style="width:100%" src="./img/xy.svg" alt="">
+				</div>
+			</div>
+		</article>
+		<article class="col-6 col-md-3">
+			<div class="card border-primary mb-3">
+				<div class="card-body text-primary">
+					<img style="width:100%" src="./img/sigry.svg" alt="">
+				</div>
+			</div>
+		</article>
+		<article class="col-6 col-md-3">
+			<div class="card border-primary mb-3">
+				<div class="card-body text-primary">
+					<img style="width:100%" src="./img/kaury.svg" alt="">
+				</div>
+			</div>
+		</article>		
+	</div>
+</section> -->
+
+
+
+<section class="container">
+	<div id="brands-carousel" class="logo-slider wow fadeInUp">
 		<h3 class="section-title">Marcas Reconocidas</h3>
 		<div class="logo-slider-inner">	
 			<div id="brand-slider" class="owl-carousel brand-slider custom-carousel owl-theme">
-				<div class="item">
+				<article class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/aoc.jpg" src="assets/images/blank.gif" alt="">
+						<img style="width:35%" src="./img/selu.svg" alt="">
 					</a>	
-				</div><!--/.item-->
-
-				<div class="item">
+				</article>
+				<article class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/bajaj.jpg" src="assets/images/blank.gif" alt="">
+						<img style="width:35%" src="./img/sweet l.svg" alt="">
 					</a>	
-				</div><!--/.item-->
-
-				<div class="item">
+				</article>
+				<article class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/blackberry.jpg" src="assets/images/blank.gif" alt="">
+						<img style="width:35%" src="./img/sweet v.svg" alt="">
 					</a>	
-				</div><!--/.item-->
-
-				<div class="item">
+				</article>
+				<article class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/canon.jpg" src="assets/images/blank.gif" alt="">
+						<img style="width:35%" src="./img/tutta.svg" alt="">
 					</a>	
-				</div>
-
-				<div class="item">
+				</article>
+				<article class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/compas.jpg" src="assets/images/blank.gif" alt="">
+						<img style="width:35%" src="./img/xy.svg" alt="">
 					</a>	
-				</div>
-
-				<div class="item">
+				</article>
+				<article class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/daikin.jpg" src="assets/images/blank.gif" alt="">
+						<img style="width:35%" src="./img/sigry.svg" alt="">
 					</a>	
-				</div>
-
-				<div class="item">
+				</article>
+				<article class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/dell.jpg" src="assets/images/blank.gif" alt="">
+						<img style="width:35%" src="./img/kaury.svg" alt="">
 					</a>	
-				</div>
-<div class="item">
-					<a href="#" class="image">
-						<img data-echo="brandsimage/samsung.jpg" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="brandsimage/hcl.jpg" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="brandsimage/sony.jpg" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="brandsimage/voltas.jpg" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="brandsimage/lg.jpg" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="brandsimage/lenovo.jpg" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-
-
-
-		    </div><!-- /.owl-carousel #logo-slider -->
-	</div><!-- /.logo-slider-inner -->
-	
+				</article>
+		    </div>
+	</div>	
 </div>
-<!-- /.logo-slider -->
+</section>
