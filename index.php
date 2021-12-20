@@ -61,28 +61,28 @@ if (isset($_GET['action']) && $_GET['action'] == "add") {
 		<section class="info-boxes container wow fadeInUp mt-5">
 			<div class="row">
 				<article class="col-12 col-md-4 ">
-					<div class="card">
-						<div class="card-body">
-							<h6 class="card-subtitle mb-2 t"><i class="icon fa fa-truck"></i></h6>
-							<h5 class="card-title">Atencion Personalizada</h5>
+					<div class="card" style="height: 270px;">
+						<div class="card-body text-center p-5">
+							<h2 class="card-subtitle mb-2 t"><i class="icon fa fa-star"></i></h2>
+							<h4 class="card-title">Atencion Personalizada</h4>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, accusantium.</p>
 						</div>
 					</div>
 				</article>
 				<article class="col-12 col-md-4 ">
-					<div class="card">
-						<div class="card-body">
-							<h6 class="card-subtitle mb-2 t"><i class="icon fa fa-truck"></i></h6>
-							<h5 class="card-title">Excelente Calidad</h5>
+					<div class="card" style="height: 270px;">
+						<div class="card-body text-center p-5">
+							<h2 class="card-subtitle mb-2 t"><i class="icon fa fa-star"></i></h2>
+							<h4 class="card-title">Excelente Calidad</h4>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, accusantium.</p>
 						</div>
 					</div>
 				</article>
 				<article class="col-12 col-md-4 ">
-					<div class="card">
-						<div class="card-body">
-							<h6 class="card-subtitle mb-2 t"><i class="icon fa fa-truck"></i></h6>
-							<h5 class="card-title">Ofertas Siempre</h5>
+					<div class="card" style="height: 270px;">
+						<div class="card-body text-center p-5">
+							<h2 class="card-subtitle mb-2 t"><i class="icon fa fa-star"></i></h2>
+							<h4 class="card-title">Ofertas Siempre</h4>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, accusantium.</p>
 						</div>
 					</div>
@@ -91,7 +91,8 @@ if (isset($_GET['action']) && $_GET['action'] == "add") {
 		</section>
 		<section class="container scroll-tabs-slider mt-5">
 			<article class="more-info-tab clearfix">
-				<h3 class="new-product-title pull-left">Productos Destacados</h3>
+				<h3 class="text-center">Productos Destacados</h3>
+				<hr class="my-3">
 				<div id="product-tabs-slider" class=" wow fadeInUp">
 					<div class="tab-content outer-top-xs">
 						<div class="tab-pane in active" id="all">

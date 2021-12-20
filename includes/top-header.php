@@ -10,7 +10,7 @@
 				<ul class="list-unstyled">
 
 					<?php if (strlen($_SESSION['login'])) {   ?>
-						<li><a href="#"><i class="icon fa fa-user"></i>Bienvenido -<?php echo htmlentities($_SESSION['username']); ?></a></li>
+						<li><a href="#"><i class="icon fa fa-user"></i>Bienvenido - <?php echo htmlentities($_SESSION['username']); ?></a></li>
 					<?php } ?>
 
 					<li><a href="my-account.php"><i class="icon fa fa-user"></i>Mi cuenta</a></li>

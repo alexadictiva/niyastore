@@ -14,14 +14,11 @@ if (isset($_Get['action'])) {
 ?>
 <div class="main-header">
 	<div class="container">
-		<section class="row">
-			<article class="col-12 col-md-3 logo-holder">
-			
+		<section class="row justify-content-center">
+			<article class="col-12 col-md-3 logo-holder">			
 				<div class="logo">
 					<a href="index.php">
-
 						<h2>Tienda </h2>
-
 					</a>
 				</div>
 			</article>
@@ -38,7 +35,7 @@ if (isset($_Get['action'])) {
 					</form>
 				</div><!-- /.search-area -->
 				<!-- ============================================================= SEARCH AREA : END ============================================================= -->
-			</article><!-- /.top-search-holder -->
+			</article>
 
 			<article class="col-12 col-md-3 animate-dropdown top-cart-row">
 				<!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
